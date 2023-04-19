@@ -44,24 +44,24 @@
       "description": "Down global shortcut key",
       "global": true
     },
-    "page up": {
+    "half page up": {
       "suggested_key": {
         "default": "Ctrl+Shift+K",
         "windows": "Ctrl+Shift+K",
         "mac": "Ctrl+Shift+K",
         "linux": "Ctrl+Shift+K"
       },
-      "description": "PageUp global shortcut key",
+      "description": "half PageUp global shortcut key",
       "global": true
     },
-    "page down": {
+    "half page down": {
       "suggested_key": {
         "default": "Ctrl+Shift+J",
         "windows": "Ctrl+Shift+J",
         "mac": "Ctrl+Shift+J",
         "linux": "Ctrl+Shift+J"
       },
-      "description": "PageDown global shortcut key",
+      "description": "half PageDown global shortcut key",
       "global": true
     }
   }
