@@ -3,7 +3,7 @@
 This chrome extension can scroll lateset accessed web page via global shortcut keys.
 
 ## how to use
-1. set shortcut key at `chrome://extensions/shortcuts`
+1. set shortcut key and allow `Global` access at `chrome://extensions/shortcuts`
 2. you can scroll web page without focusing on
 
 ## NOTE
