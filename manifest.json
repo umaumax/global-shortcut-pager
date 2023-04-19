@@ -1,0 +1,68 @@
+{
+  "name": "global shortcut pager",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "description": "global shortcut pager application",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*", "file://*/*"],
+      "js": ["script.js"],
+      "css": [],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"],
+  "commands": {
+    "up": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Up",
+        "windows": "Ctrl+Shift+Up",
+        "mac": "Ctrl+Shift+Up",
+        "linux": "Ctrl+Shift+Up"
+      },
+      "description": "Up global shortcut key",
+      "global": true
+    },
+    "down": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Down",
+        "windows": "Ctrl+Shift+Down",
+        "mac": "Ctrl+Shift+Down",
+        "linux": "Ctrl+Shift+Down"
+      },
+      "description": "Down global shortcut key",
+      "global": true
+    },
+    "page up": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "windows": "Ctrl+Shift+K",
+        "mac": "Ctrl+Shift+K",
+        "linux": "Ctrl+Shift+K"
+      },
+      "description": "PageUp global shortcut key",
+      "global": true
+    },
+    "page down": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+J",
+        "windows": "Ctrl+Shift+J",
+        "mac": "Ctrl+Shift+J",
+        "linux": "Ctrl+Shift+J"
+      },
+      "description": "PageDown global shortcut key",
+      "global": true
+    }
+  }
+}
